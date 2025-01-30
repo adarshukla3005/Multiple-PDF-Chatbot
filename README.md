@@ -32,13 +32,11 @@ This Streamlit application allows users to upload multiple PDF files, process th
    cd Multiple-PDF-Chatbot
 2. Create a virtual environment:
    ```bash
-   Copy
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 3. Install the required packages:
    ```bash
-   Copy
    pip install -r requirements.txt
    Set up environment variables:
 
@@ -46,12 +44,10 @@ This Streamlit application allows users to upload multiple PDF files, process th
 
 5. Add your Google API key to the .env file:
    ```bash
-   Copy
    GOOGLE_API_KEY=your_google_api_key_here
    
 6. Run the Streamlit app:
    ```bash
-   Copy
    streamlit run app.py
    Upload PDF files:
 
