@@ -45,7 +45,7 @@ This Streamlit application allows users to upload multiple PDF files, process th
 4. Create a .env file in the root directory.
 
 5. Add your Google API key to the .env file:
-   plaintext
+   ```bash
    Copy
    GOOGLE_API_KEY=your_google_api_key_here
    Usage
