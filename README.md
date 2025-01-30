@@ -48,7 +48,7 @@ This Streamlit application allows users to upload multiple PDF files, process th
    ```bash
    Copy
    GOOGLE_API_KEY=your_google_api_key_here
-   Usage
+   
 6. Run the Streamlit app:
    ```bash
    Copy
