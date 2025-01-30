@@ -30,44 +30,41 @@ This Streamlit application allows users to upload multiple PDF files, process th
    ```bash
    git clone https://github.com/adarshukla3005/Multiple-PDF-Chatbot.git
    cd Multiple-PDF-Chatbot
-Create a virtual environment:
+2. Create a virtual environment:
+   ```bash
+   Copy
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
-bash
-Copy
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-Install the required packages:
+3. Install the required packages:
+   ```bash
+   Copy
+   pip install -r requirements.txt
+   Set up environment variables:
 
-bash
-Copy
-pip install -r requirements.txt
-Set up environment variables:
+4. Create a .env file in the root directory.
 
-Create a .env file in the root directory.
+5. Add your Google API key to the .env file:
+   plaintext
+   Copy
+   GOOGLE_API_KEY=your_google_api_key_here
+   Usage
+6. Run the Streamlit app:
+   ```bash
+   Copy
+   streamlit run app.py
+   Upload PDF files:
 
-Add your Google API key to the .env file:
-
-plaintext
-Copy
-GOOGLE_API_KEY=your_google_api_key_here
-Usage
-Run the Streamlit app:
-
-bash
-Copy
-streamlit run app.py
-Upload PDF files:
-
-Use the sidebar to upload one or more PDF files.
+### Use the sidebar to upload one or more PDF files.
 
 Click the "Submit & Process" button to extract and process the text.
 
-Ask questions:
+## Ask questions:
 
 Enter your question in the text input box or use the microphone button to ask via voice.
 
 The app will display the answer based on the content of the uploaded PDFs.
 
-View chat history:
+## View chat history:
 
 The chat history is displayed below the input box, showing all previous questions and answers.
