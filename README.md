@@ -2,8 +2,6 @@
 
 ![image](https://github.com/user-attachments/assets/f64cacb6-cc8b-4fad-88f2-cfa6aa136118)
 
-# Chat with PDF - Streamlit App
-
 This Streamlit application allows users to upload multiple PDF files, process them, and interact with the content using a chatbot powered by Google's Generative AI. Users can ask questions via text or voice input, and the app will provide answers based on the content of the uploaded PDFs.
 
 ## Features
@@ -30,8 +28,8 @@ This Streamlit application allows users to upload multiple PDF files, process th
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/chat-with-pdf.git
-   cd chat-with-pdf
+   git clone https://github.com/adarshukla3005/Multiple-PDF-Chatbot.git
+   cd Multiple-PDF-Chatbot
 Create a virtual environment:
 
 bash
